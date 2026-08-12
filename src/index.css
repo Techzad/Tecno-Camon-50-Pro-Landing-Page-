@@ -1,0 +1,26 @@
+@import "tailwindcss";
+
+@layer utilities {
+  .text-gradient-metallic-light {
+    background: linear-gradient(180deg, #FFFFFF 0%, #777777 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  
+  .text-gradient-metallic-dark {
+    background: linear-gradient(180deg, #FFFFFF 0%, #333333 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  .bg-dot-grid {
+    background-image: radial-gradient(rgba(255, 255, 255, 0.15) 1.5px, transparent 1.5px);
+    background-size: 40px 40px;
+  }
+}
+
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  background-color: #050505;
+}
+

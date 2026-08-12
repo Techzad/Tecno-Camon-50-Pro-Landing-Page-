@@ -1,0 +1,8 @@
+{
+  "name": "TECNO CAMON 50 Pro Launch",
+  "description": "An ultra-premium, interactive, and cinematic flagship landing page for the TECNO CAMON 50 Pro featuring scroll-controlled WebGL visual storytelling.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
